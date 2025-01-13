@@ -1,6 +1,6 @@
 # Earth data science
 
-![](https://img.shields.io/badge/Python-3.12-blue)
+![](https://img.shields.io/badge/Python-3.11-blue)
 [![](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![](https://img.shields.io/badge/Year-2024/2025-yellow)
 ![](https://img.shields.io/badge/Status-In%20progress-green)
@@ -29,43 +29,39 @@ The lectures will fit within two sessions of four hours each. The following list
 6. __Deep learning: convolutional neural networks__. This section introduces the concept of convolutional neural networks
 7. __Applications__. This section introduces the different applications of machine learning in the Earth sciences
 8. __Unsupervised learning__. This section introduces the concept of unsupervised learning, relying a lot on the previously seen concepts
-9. __Notebooks__. A brief introduction to the Jupyter notebooks and the Python programming language.
 
 <br>
 
 ## Labs    
 
+### Structure
+
 The following list of labs is proposed in the different subfolders of the `labs` folder.
 
 0. [__Self-evaluation__](labs/0-self-evaluation/self-evaluation.ipynb) (1 hour). This lab is a self-evaluation of your Python skills. It is required to enroll in the course. A small solution will be delivered at the beginning of the lab session. 
-1. [__River sensor calibration__](README.md) (4 hours). This lab allow to perform a first simple machine learning task: the calibration of a river sensor with supervised learning, where the goal is to predict the suspended sediment concentration from the turbidity of the water.
-2. [__Earthquake location__](README.md) (~4 hours). In this lab, we will use Bayesian inference to locate the earthquake that occurred near the city of Le Teil in November 2019. We will also play around with prior distributions and see how they affect the posterior distribution.
-3. [__Lidar data classification__](README.md) (~8 hours). In this lab, we will classify lidar cloud points into different classes using supervised machine learning tools. Since this is a more complex task, we will take more time to complete it.
-4. [__Deep learning__](README.md) (~4 hours). In this lab, we will explore several deep learning architectures to perform several supervised tasks, including digit recognition, and volcano monitoring.
+1. __River sensor calibration__ (4 hours). This lab allow to perform a first simple machine learning task: the calibration of a river sensor with supervised learning, where the goal is to predict the suspended sediment concentration from the turbidity of the water.
+3. __Lidar data classification__ (~8 hours). In this lab, we will classify lidar cloud points into different classes using supervised machine learning tools. Since this is a more complex task, we will take more time to complete it.
 
-> The solution to the different labs will be proposed progressively during the course in the corresponding folders. Note that the solutions provided are not necessarily the best ones. The main idea of these sessions is for you to be overly curious and to try to find the solutions that best fit your needs, and your understanding of the problem. Some of you may complete the tasks at a faster pace than others, and we encourage you to help your peers during the labs, and also to explore further aspects of the problems that are not covered in the labs.
 
-## Running the Jupyter labs 
+The solution to the different labs will be proposed progressively during the course in the corresponding folders. Note that the solutions provided are not necessarily the best ones. The main idea of these sessions is for you to be overly curious and to try to find the solutions that best fit your needs, and your understanding of the problem. Some of you may complete the tasks at a faster pace than others, and we encourage you to help your peers during the labs, and also to explore further aspects of the problems that are not covered in the labs.
 
-### Python environment
+### Running the labs on the Youpisco virtual machine
 
-The easiest way to run most notebooks of this course is to create a new Anaconda environment with the following set of commands. We decided not to go with an environment file to allow for more flexibility in Python versions.
+The easiest way to run most notebooks of this course is to connect to Youpisco, a virtual machine specifically designed for the course. You can connect to Youpisco at the following address: https://youpisco.ipgp.fr. __Note that the first time you connect, you can create an account with your choice of username and password.__ Opening a page on Youpisco will open a Jupyter notebook interface as the screenshot shown below.
 
-The following lines create a new environment called `earth-data-science` without any package installed. Then, we install the most constrained packages first (namely, `obspy`) which will install the latest compatible version of `python`, `numpy` and `scipy`. Finally, we install the rest of the packages.
+![Youpisco welcome screen](images/youpisco-welcome.png)
+
+Once at that stage, you can open a terminal by clicking on the `Terminal` button on the launcher, navigate to your favorite directory (typically, on your home directory) and clone this repository by running the following command:
 
 ```bash
-conda create -n earth-data-science
-conda activate earth-data-science
-conda install -c conda-forge obspy
-conda install -c conda-forge numpy scipy matplotlib pandas jupyter scikit-learn cartopy ipywidgets rasterio seaborn
-pip install tqdm 
-pip install laspy
+git clone https://github.com/leonard-seydoux/earth-data-science-public.git
 ```
 
-Once this is done, you must select the kernel `earth-data-science` in Jupyter to run the notebooks. Please inform your instructor if you have any problem with this.
+This command should download the repository in a folder called `earth-data-science-public`, visible on the left panel of the Jupyter interface. You can then navigate to the `earth-data-science-public` folder and open the notebooks in the `labs` folder therin. Once open, you can start executing the cells by ensuring that the kernel is set to `Python 3 (Earth Data Science)`.
+
+### Running the labs on your own machine
+
+If you prefer, you can also run the notebooks on your own machine. To do so, you must install the required packages. The easiest way to do so is to use the `conda` package manager, and to create a new environment with the required packages. The list of required packages can be obtained from the `environment.yml` file in the repository. __If you prefer this solution, please make sure you have a good knowledge of Python and the package manager `conda`.__
 
 
-### Execution
-
-The notebooks can be either ran locally or on a remote server. The remote server is available at the following address: https://charline.ipgp.fr. You can log in with your IPGP credentials. Therein, you can apply clone to download the notebooks from this repository (e.g. `git clone https://github.com/leonard-seydoux/earth-data-science.git`). 
 
