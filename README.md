@@ -47,7 +47,7 @@ The solution to the different labs will be proposed progressively during the cou
 
 ### Running the labs on the Youpisco virtual machine
 
-The easiest way to run most notebooks of this course is to connect to Youpisco, a virtual machine specifically designed for the course. You can connect to Youpisco at the following address: https://youpisco.ipgp.fr. __Note that the first time you connect, you can create an account with your choice of username and password.__ Opening a page on Youpisco will open a Jupyter notebook interface as the screenshot shown below.
+The easiest way to run most notebooks of this course is to connect to Youpisco, a virtual machine specifically designed for the course. You can connect to Youpisco at the following address __only from the local IPGP network__: https://youpisco.ipgp.fr. __Note that the first time you connect, you can create an account with your choice of username and password.__ Opening a page on Youpisco will open a Jupyter notebook interface as the screenshot shown below.
 
 ![Youpisco welcome screen](images/youpisco-welcome.png)
 
