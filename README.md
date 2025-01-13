@@ -7,7 +7,7 @@
 ![](https://img.shields.io/badge/Institution-IPGP-red)
 
 
-<img width="250px" src="images/image.png" align="left" style="padding: 5px 20px 0px 0px;"/>
+<img width="250px" src="images/xkcd.png" align="left" style="padding: 5px 20px 0px 0px;"/>
 
 This repository contains the materical for the class _Earth data science_ delivered at the [Institut de Physique du Globe de Paris](https://www.ipgp.fr/) for master students. The course is an introduction to scientific computing and the use of Python for solving geophysical problems. The course is mostly based on practical sessions where students will learn how to use Python to solve problems related to the Earth sciences with statistical and machine learning methods. The course and notebooks rely on the Python [scikit-learn](https://scikit-learn.org/stable/) library, [pandas](https://pandas.pydata.org/), [pytorch](https://pytorch.org/), and the [deep learning](https://www.deeplearningbook.org/) book by Ian Goodfellow, Yoshua Bengio and Aaron Courville. This course is a legacy of the course of the same name by [Antoine Lucas](http://dralucas.geophysx.org/). The lectures are taught by [Léonard Seydoux](https://sites.google.com/view/leonard-seydoux/accueil) and the practicals by [Antoine Lucas](http://dralucas.geophysx.org/), [Alexandre Fournier](https://www.ipgp.fr/~fournier/), [Éléonore Stutzmann](https://www.ipgp.fr/~stutz/), and [Léonard Seydoux](https://sites.google.com/view/leonard-seydoux/accueil). 
 
