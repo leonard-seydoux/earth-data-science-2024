@@ -39,7 +39,7 @@ The lectures will fit within two sessions of four hours each. The following list
 The following list of labs is proposed in the different subfolders of the `labs` folder.
 
 0. [__Self-evaluation__](labs/0-self-evaluation/self-evaluation.ipynb) (1 hour). This lab is a self-evaluation of your Python skills. It is required to enroll in the course. A small solution will be delivered at the beginning of the lab session. 
-1. __River sensor calibration__ (4 hours). This lab allow to perform a first simple machine learning task: the calibration of a river sensor with supervised learning, where the goal is to predict the suspended sediment concentration from the turbidity of the water.
+1. [__River sensor calibration__](labs/1-calibration/) (4 hours). This lab allow to perform a first simple machine learning task: the calibration of a river sensor with supervised learning, where the goal is to predict the suspended sediment concentration from the turbidity of the water.
 3. __Lidar data classification__ (~8 hours). In this lab, we will classify lidar cloud points into different classes using supervised machine learning tools. Since this is a more complex task, we will take more time to complete it.
 
 
