@@ -61,7 +61,14 @@ This command should download the repository in a folder called `earth-data-scien
 
 ### Running the labs on your own machine
 
-If you prefer, you can also run the notebooks on your own machine. To do so, you must install the required packages. The easiest way to do so is to use the `conda` package manager, and to create a new environment with the required packages. The list of required packages can be obtained from the `environment.yml` file in the repository. __If you prefer this solution, please make sure you have a good knowledge of Python and the package manager `conda`.__
+If you prefer, you can also run the notebooks on your own machine. To do so, you must install the required packages. The easiest way to do so is to use the `conda` package manager, and to create a new environment with the required packages listed in the file [requirements.txt](requirements.txt). To do so, you can run the following commands in a terminal:
+
+```bash
+conda env create -f requirements.txt
+conda activate eds
+```
+
+__If you prefer this solution, please make sure you have a good knowledge of Python and the package manager `conda`.__
 
 
 
