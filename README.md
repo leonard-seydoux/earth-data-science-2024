@@ -42,6 +42,7 @@ The following list of labs is proposed in the different subfolders of the `labs`
 0. [Self-evaluation](labs/0-self-evaluation/self-evaluation.ipynb) (1 hour). This lab is a self-evaluation of your Python skills. It is required to enroll in the course. A small solution will be delivered at the beginning of the lab session. 
 1. [River sensor calibration](labs/1-calibration/) (4 hours). This lab allow to perform a first simple machine learning task: the calibration of a river sensor with supervised learning, where the goal is to predict the suspended sediment concentration from the turbidity of the water.
 3. [Lidar data classification](labs/2-lidar-classification) (~8 hours). In this lab, we will classify lidar cloud points into different classes using supervised machine learning tools. Since this is a more complex task, we will take more time to complete it.
+4. [Deep learning classification of MNIST](labs/3-deep-learning) (~4 hours). In this lab, we will use deep learning to classify the MNIST dataset with a fully connected neural network, and then with a convolutional neural network.
 
 
 The solution to the different labs will be proposed progressively during the course in the corresponding folders. Note that the solutions provided are not necessarily the best ones. The main idea of these sessions is for you to be overly curious and to try to find the solutions that best fit your needs, and your understanding of the problem. Some of you may complete the tasks at a faster pace than others, and we encourage you to help your peers during the labs, and also to explore further aspects of the problems that are not covered in the labs.
@@ -50,7 +51,7 @@ The solution to the different labs will be proposed progressively during the cou
 
 The easiest way to run most notebooks of this course is to connect to Youpisco, a virtual machine specifically designed for the course. You can connect to Youpisco at the following address __only from the local IPGP network__: https://youpisco.ipgp.fr. __Note that the first time you connect, you can create an account with your choice of username and password.__ Opening a page on Youpisco will open a Jupyter notebook interface as the screenshot shown below.
 
-![Youpisco welcome screen](images/youpisco-welcome.png)
+![Youpisco welcome screen](lectures/images/youpisco-welcome.png)
 
 Once at that stage, you can open a terminal by clicking on the `Terminal` button on the launcher, navigate to your favorite directory (typically, on your home directory) and clone this repository by running the following command:
 
